@@ -150,7 +150,7 @@ function isSafe(board, row, col, num) {
 }
 
 function back() {
-    window.location.href = "file:///C:/Users/USER/Desktop/website/sudoku/selector/difficulty.html"; // Redirect to the other game page
+    window.location.href = "https://tutyjogos.pt/sudoku/selector/difficulty.html"; // Redirect to the other game page
 }
 
 function checkSudokuSolved(board) {

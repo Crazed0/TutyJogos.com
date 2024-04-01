@@ -108,5 +108,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function back() {
-    window.location.href = "file:///C:/Users/USER/Desktop/website/index.html"; // Redirect to the other game page
+    window.location.href = "https://tutyjogos.pt/index.html"; // Redirect to the other game page
 }
