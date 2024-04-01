@@ -338,13 +338,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return false;
     }
+
+    // Add the click event listeners for the buttons
+    document.getElementById('left').addEventListener('click', keyLeft);
+    document.getElementById('up').addEventListener('click', keyUp);
+    document.getElementById('down').addEventListener('click', keyDown);
+    document.getElementById('right').addEventListener('click', keyRight);
 });
 
-// Add the click event listeners for the buttons
-document.getElementById('left').addEventListener('click', keyLeft);
-document.getElementById('up').addEventListener('click', keyUp);
-document.getElementById('down').addEventListener('click', keyDown);
-document.getElementById('right').addEventListener('click', keyRight);
 
 function back() {
     window.location.href = "https://tutyjogos.pt/index.html"; // Redirect to the other game page
