@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 0 auto; /* Add this line to center the board horizontally */
+    margin-bottom: 20px;
+}
+
+.scoreboard {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #888;
+}
+
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.status {
+    margin-bottom: 20px;
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #0056b3;
+}
+
+.winner {
+    background-color: lightgreen;
+}
+
+.draw {
+    background-color: lightyellow;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

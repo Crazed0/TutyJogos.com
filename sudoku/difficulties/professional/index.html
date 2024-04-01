@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤ TUTY SUDOKU PRO ❤</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="../tuty.jpg">
+    <style>
+        #solve-button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px; /* Adjust the margin-top as needed */
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div id="container">
+        <div class="title-bar">
+            <h1 class="titulo1">❤ TUTY SUDOKU PRO ❤</h1>
+            <div class="btn">
+                <button onclick="back()">Voltar</button>
+            </div>
+        </div>
+        <div id="sudoku-board" class="sudoku-board"></div>
+        <div id="number-selector" class="number-selector">
+            <button class="number-button" data-number="1">1</button>
+            <button class="number-button" data-number="2">2</button>
+            <button class="number-button" data-number="3">3</button>
+            <button class="number-button" data-number="4">4</button>
+            <button class="number-button" data-number="5">5</button>
+            <button class="number-button" data-number="6">6</button>
+            <button class="number-button" data-number="7">7</button>
+            <button class="number-button" data-number="8">8</button>
+            <button class="number-button" data-number="9">9</button>
+        </div>
+        <button id="solve-button">Solve Sudoku</button>
+
+    </div>
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            generateSudoku();
+        };
+    </script>
+</body>
+</html>

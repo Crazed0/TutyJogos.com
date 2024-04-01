@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    text-align: center;
+    margin: 20px auto; /* Center the container and add some margin */
+    max-width: 600px; /* Set maximum width for better readability */
+    padding: 0 20px; /* Add some padding */
+}
+
+.titulo1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.text1 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#word {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #888;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

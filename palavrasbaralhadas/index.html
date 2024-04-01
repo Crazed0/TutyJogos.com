@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤ TUTY BARALHADAS ❤</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="../tuty.jpg">
+</head>
+
+<body>
+    <div class="title-bar">
+        <h1 class="titulo1">❤ TUTY PALAVRAS BARALHADAS ❤</h1>
+        <div class="btn">
+            <button onclick="back()">Voltar</button>
+        </div>
+    </div>
+    <div class="body">
+        <h1 class="text1">A palavra contem as letras seguintes:</h1>
+        <div id="word"></div>
+        <input type="text" id="guess" placeholder="Digite sua resposta">
+        <button onclick="darDica()">Dica</button>
+        <div id="score">Palavras Encontradas: 0 | Erros: 0</div>
+        <div id="palavrasencontradas" class="palavrasencontradas">
+            <h2>Palavras Encontradas:</h2>
+            <ul id="found-words-list"></ul>
+        </div> 
+    </div>   
+    <script src="script.js"></script>
+</body>
+
+</html>

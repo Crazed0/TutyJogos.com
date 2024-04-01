@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Center text inside buttons */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 300px;
+    margin-bottom: 3px; /* Optional: Add margin between buttons */
+}
+
+
+.btn {
+    margin: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add this new class to style the Back button */
+.back-btn {
+    width: 150px;
+}

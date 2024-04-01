@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+#container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sudoku-board {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+    gap: 1px;
+    border: 2px solid #000;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-collapse: collapse; /* Add this line to collapse borders */
+}
+
+.sudoku-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    border: 2px solid #000; /* Add this line to create borders around each 3x3 section */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.text {
+    text-align: center;
+}
+
+.sudoku-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: background-color 0.3s;
+    height: 30px;
+    width: 30px;
+}
+
+.sudoku-cell:hover {
+    background-color: #9e9d9d;
+}
+
+.initial {
+    background-color: #ccc;
+}
+
+.number-selector {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.number-button {
+    font-size: 17px;
+    padding: 6px 10px;
+    margin: 0 0px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #979797;
+    transition: background-color 0.5s;
+}
+
+.number-button:hover {
+    background-color: #cac9c9;
+}
+
+.number-button:focus {
+    outline: none;
+}
+
+.pre-filled {
+    background-color: #b1b1b1;
+}
+

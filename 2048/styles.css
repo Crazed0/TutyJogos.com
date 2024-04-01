@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .titulo1 {
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 15px 0;
+    width: 150px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+  h1 {
+    font-size: 80px;
+    line-height: 0.7;
+    color: #776E65;
+    margin: 0px;
+  }
+
+  .container {
+    width: 468px;
+    margin: 0;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 456px;
+    height: 456px;
+    background-color: #BBADA0;
+    border: 7px solid #BBADA0;
+    border-radius: 6px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+  }
+  
+  .grid div {
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    border-radius: 3px;
+    background-color: #EEE4DA;
+    color: #afa192;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.6;
+  }
+  
+  .score-container {
+    text-align: center;
+    width: 70px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #8f7a66;
+    color: #FFFFFF;
+  }
+
+  .best-score-container {
+    text-align: center;
+    width: 90px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #8f7a66;
+    color: #FFFFFF;
+  }
+  
+  #score {
+    font-size: 30px;
+  }
+
+  #bestscore {
+    font-size: 30px;
+  }
+  
+  .score-title {
+    font-size: 16px;
+  }
+
+#up, #left, #down, #right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto 20px;
+}
